@@ -69,7 +69,7 @@ class Linkedin:
             self.additional_qa = {}
 
         # ✅ REPLACE GEMINI WITH GROQ
-        self.groq_client = Groq(api_key="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")  # Replace with your Groq key
+        self.groq_client = Groq(api_key="gsk_G49BI3TK9gbLqXyb3FYJ6ok943SzoTPQVqntqC9cTwY")  # Replace with your Groq key
 
         # ✅ Convert Q&A to text for AI
         self.qa_text = self._convert_qa_to_text(self.additional_qa)
